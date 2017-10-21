@@ -1,10 +1,8 @@
 import numpy as np
 from numpy.matlib import repmat
 import matplotlib.pyplot as plt
-import sys
 #注意数据类型的转换
-sys.path.append('funcation/')
-import mykmeans
+from funcation import mykmeans
 def main():
     k = 3  # 类簇个数
 
